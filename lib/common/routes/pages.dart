@@ -10,7 +10,7 @@ class AppPages {
   static List<PageEntity> routes() {
     return [
       PageEntity(
-        route: AppRoutes.INITIAL,
+        route: AppRoutes.SIGN_IN,
         page: const Welcome(),
         bloc: BlocProvider(create: (_) => WelcomeBloc()),
       ),
